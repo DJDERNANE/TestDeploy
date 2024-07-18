@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tendax20/test.tendaxe.com
+    - /bin/cp -R * $DEPLOYPATH
